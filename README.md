@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/bionikspoon/GraphEd.svg?branch=master)](https://travis-ci.com/bionikspoon/GraphEd) [![Maintainability](https://api.codeclimate.com/v1/badges/690e258488c2c358d754/maintainability)](https://codeclimate.com/github/bionikspoon/GraphEd/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/690e258488c2c358d754/test_coverage)](https://codeclimate.com/github/bionikspoon/GraphEd/test_coverage)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
 
 class App extends Component {
   render() {
+    const text = 'Learn React'
     return (
       <div className="App">
         <header className="App-header">
@@ -17,12 +18,12 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            {text}
           </a>
         </header>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
