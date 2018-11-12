@@ -1,6 +1,6 @@
+import { render, shallow } from 'enzyme'
 import React from 'react'
 import App from './App'
-import { shallow, render } from 'enzyme'
 
 test('it matches snapshot', () => {
   const wrapper = render(<App />)

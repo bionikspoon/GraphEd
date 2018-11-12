@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
-import logo from './logo.svg'
 import './App.css'
 
+import React, { Component } from 'react'
+import logo from './logo.svg'
+
 class App extends Component {
-  render() {
+  public render() {
     const text = 'Learn React'
     return (
       <div className="App">
