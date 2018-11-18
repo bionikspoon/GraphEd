@@ -1,4 +1,4 @@
-import { render, shallow } from 'enzyme'
+import { render, shallow, mount } from 'enzyme'
 import React from 'react'
 import App from './App'
 
@@ -9,7 +9,7 @@ test('it matches snapshot', () => {
 })
 
 test('it renders without crashing', () => {
-  const wrapper = shallow(<App />)
+  const wrapper = mount(<App />)
 
   expect(wrapper).toIncludeText('Learn React')
 })

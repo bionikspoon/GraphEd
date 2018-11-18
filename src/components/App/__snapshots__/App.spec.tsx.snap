@@ -2,25 +2,27 @@
 
 exports[`it matches snapshot 1`] = `
 <div
-  class="App"
+  class="container"
 >
   <header
-    class="App-header"
+    class="header"
   >
     <img
       alt="logo"
-      class="App-logo"
+      class="logo"
       src="logo.svg"
     />
     <p>
       Edit 
-      <code>
+      <code
+        class="code"
+      >
         src/App.js
       </code>
        and save to reload.
     </p>
     <a
-      class="App-link"
+      class="link"
       href="https://reactjs.org"
       rel="noopener noreferrer"
       target="_blank"
